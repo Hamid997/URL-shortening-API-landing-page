@@ -8,6 +8,7 @@ import iconPinterest from "/icon-pinterest.svg";
 
 export default function Footer() {
   return (
+    <>
     <footer>
         <div className='footer-section'>
           <a href="#" >
@@ -84,5 +85,14 @@ export default function Footer() {
           </div>
         </div>
     </footer>
+    <div className="attribution">
+      Challenge by{" "}
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor
+      </a> . Coded by{" "}
+      <a  href="https://github.com/hamid997"  target="_blank"  rel="noopener noreferrer">
+        Abdelhamid Birouk
+      </a> .
+    </div>
+    </>
   )
 }
